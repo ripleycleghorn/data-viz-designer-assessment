@@ -55,7 +55,7 @@ The following object is masked from ‘package:readr’:
 + )
 > 
 > # Load data for figure 7
-> df <- read.csv("/Users/ripleycleghorn/Documents/Work/Other/Job Applications/RISI/assessment/data/Assessment Data - Figure 7.csv",
+> df <- read.csv("https://raw.githubusercontent.com/ripleycleghorn/data-viz-designer-assessment/refs/heads/main/data/Assessment%20Data%20-%20Figure%207.csv",
 +                header = TRUE, stringsAsFactors = FALSE)
 > 
 > # Prepare 2022 data
@@ -198,7 +198,7 @@ Warning messages:
 +   dpi = 300         
 + )
 > # Load data for figure 2
-> df_figure2 <- read.csv("/Users/ripleycleghorn/Documents/Work/Other/Job Applications/RISI/assessment/data/Assessment Data - Figure 2.csv",
+> df_figure2 <- read.csv("https://raw.githubusercontent.com/ripleycleghorn/data-viz-designer-assessment/refs/heads/main/data/Assessment%20Data%20-%20Figure%202.csv",
 +                header = TRUE, stringsAsFactors = FALSE)
 > 
 > # Load libraries
@@ -267,5 +267,5 @@ Warning messages:
 > 
 > 
 > 
-2025-11-20 13:40:45.242 R[17513:11884610] The class 'NSSavePanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
+2025-11-20 14:54:47.806 R[18014:11922823] The class 'NSSavePanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
 > 
